@@ -1,0 +1,31 @@
+{
+    "name": "KXTJ3-Min",
+    "version": "0.0.1",
+    "description": "Minified motion detection",
+    "keywords": "sensors, accelerometer, motion detection, motion detector, low power, mobile, battery, web, cloud, iot, gsm, gprs, gps, gnss",
+    "authors":[
+      {
+        "name":  "Leonardo Bispo",
+        "url":   "https://github.com/ldab",
+      },
+      {
+        "name":  "Jasdoge",
+        "url":   "https://github.com/jasdoge",
+        "maintainer": true
+      }
+    ],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/jasdoge/KXTJ3-Min.git"
+    },
+    "homepage": "https://github.com/jasdoge/KXTJ3-Min",
+    "export": {
+      "exclude": [
+        "linux",
+        "extras"
+      ]
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
