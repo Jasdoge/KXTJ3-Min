@@ -1,17 +1,9 @@
 # KXTJ3-1057 Motion detection
 
-Minimalistic library for motion detection using low cost KXTJ3-1057, 3-axis MEMS accelerometer, low-power, ±2g/±4g/±8g/±16g full scale, high-speed I2C digital output, delivered in a 2x2x0.9mm LGAplastic package operating from a 1.71V–3.6V DC supply.
+Minified version of library for motion detection using low cost KXTJ3-1057, 3-axis MEMS accelerometer, low-power, ±2g/±4g/±8g/±16g full scale, high-speed I2C digital output, delivered in a 2x2x0.9mm LGAplastic package operating from a 1.71V–3.6V DC supply. Working on an attiny402
 
-[![GitHub version](https://img.shields.io/github/release/ldab/KXTJ3-1057.svg)](https://github.com/ldab/KXTJ3-1057/releases/latest)
-[![Build Status](https://travis-ci.org/ldab/KXTJ3-1057.svg?branch=master)](https://travis-ci.org/ldab/KXTJ3-1057)
-[![License: GPL v3](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ldab/KXTJ3-1057/blob/master/LICENSE)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/ldab/KXTJ3-1057.svg?style=social)](https://github.com/ldab/KXTJ3-1057)
-
-## TODO
-
-- [ ] `returnError` Handler
-- [ ] Update Keywords
+[![License: GPL v3](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ldab/KXTJ3-Min/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ldab/KXTJ3-1057.svg?style=social)](https://github.com/ldab/KXTJ3-Min)
 
 ###  Current consumption of operating modes μA
 
