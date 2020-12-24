@@ -54,3 +54,35 @@ Interrupt non-activity duration to *reset* the interrupt pin is a function of ev
 ## Credits
 
 Github Shields and Badges created with [Shields.io](https://github.com/badges/shields/)
+
+
+
+
+# Usage
+
+The library runs off of a single header file, which saves memory. This however means you can only have one accelerometer per project. But that should be within the scope of this library as I want it to run on small and cheap microcontrollers.
+
+The header file adds the ```Accelerometer``` namespace. You call that directly.
+
+| Func | Args | Description |
+| --- | --- | --- |
+| bool begin | uint8_t accelRange = Accelerometer::RANGE_8G, uint8_t sampleRate = Accelerometer::SAMPLE_RATE_100H | Detect and configure the accelerometer |
+| bool setInterrupt | uint16_t threshold, uint8_t moveDur, uint8_t naDur, bool polarity = HIGH | Sets up interrupt signal outputs |
+| bool toggleStandby | bool enable = true | Sets the accelerometer into standby mode |
+
+
+### Error handling
+
+To add error handling, you can set Accelerometer::onError to a function with one uint8_t:
+<pre>
+void onError( uint8_t error ){
+	Serial.printf("Got error: %i\n", error);
+}
+void setup(){
+	Accelerometer::onError = &onError;
+}
+</pre>
+
+
+
+
